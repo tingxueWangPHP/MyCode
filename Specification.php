@@ -84,6 +84,6 @@ $obj1 = new LoginSpecification(10, 12);
 
 $obj2 = new ZanSpecification(10);
 
-var_dump((new AndSpecification($obj1, $obj2))->isSatisfiedBy());
+var_dump((new AndSpecification($obj1, $obj2))->isSatisfiedBy()); 
 
 
