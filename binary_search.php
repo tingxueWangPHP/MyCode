@@ -1,6 +1,5 @@
 <?php
 	function binary_search_recursion(&$arr, $number, $lower, $high) {
-		echo "55\n";
 		if ($lower > $high) {
 			return -1;
 		}
